@@ -1,8 +1,9 @@
 name: deployment workflow
-on: workflow_dispatch
+on: 
+#workflow_dispatch
 #   uncomment below lines during lecture
-#   push:
-#     branches: [main]
+  push:
+    branches: [main]
 jobs:
   deploy:
     name: Deploy
